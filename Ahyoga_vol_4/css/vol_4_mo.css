@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@media all and (max-width:390px){
+    .vol_4_pc{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 100%;
+    }
+    .vol_4_mo{
+        background: url(../img/back_ground.png);
+        position: relative;
+        overflow: hidden;
+        padding-top: 10%;
+        box-sizing: border-box;
+    }
+    .bg_text_box{
+        height: 4.5%;
+        background: white;
+        opacity: 0.5;
+        position: absolute;
+        left: 0;
+    }
+    .top_text{
+        top: 0;
+    }
+    .bottom_text{
+        bottom: 0;
+    }
+    .move_text>i{
+        color: gray;
+    }
+    .move_text{
+        height: 100%;
+        float: left;
+        color: gray;
+        font-size: 3.8vw;
+        line-height: 100%;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+    }
+    .title_wrap{
+        width: 100%;
+        height: 9%;
+        margin-bottom: 15%;
+    }
+    .top_title,.bottom_title{
+        font-size: 1.5em;
+    }
+    .center_title{
+        font-size: 2.5em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        margin: 2% auto;
+    }
+    .bottom_title>span{
+        font-size: 0.8em;
+    }
+    #mybook{
+        margin-left: 3%;
+    }
+    #custom-next{
+        width: 40px;
+        height: 100px;
+        /* background: red; */
+        position: fixed;
+        top: 45%;
+        left: 90%;
+        z-index: 999999;
+        cursor: pointer;
+        color: #666;
+    }
+    .text_box{
+        color: #666;
+        margin-top: 20%;
+    }
+    #text_first{
+        font-size: 1.5em;
+        font-weight: 500;
+        letter-spacing: 1px;
+        /* background: rgb(248, 243, 234); */
+    }
+    .back_but{
+        width: 10%;
+        height: 7%;
+        position: absolute;
+        right: 2%;
+        bottom: 4%;
+        background: url(../img/home_but.png);
+        background-size: 100%;
+        line-height: 300%;
+        font-size: 0.8em;
+        background-repeat: no-repeat;
+    }
+
+}

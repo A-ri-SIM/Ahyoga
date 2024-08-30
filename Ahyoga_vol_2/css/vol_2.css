@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@media all and (min-width: 391px) {
+  .vol_2_mo {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+  html,
+  body {
+    overflow: hidden;
+  }
+  
+  section {
+    background: url(../img/bg.jpg);
+    position: relative;
+  }
+  .title_wrap {
+    height: 150px;
+    color: white;
+  }
+  .top_title {
+    font-size: 35px;
+  }
+  .title {
+    font-size: 85px;
+  }
+  .text_box_wrap {
+    width: 120px;
+    height: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -295px;
+    margin-left: 500px;
+    /* background: red; */
+    padding: 60px 20px;
+    box-sizing: border-box;
+  }
+  .left_text {
+    width: 535px;
+    height: 80px;
+    font-size: 50px;
+    line-height: 80px;
+    color: white;
+    transform: rotate(90deg);
+    /* background: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: 400px;
+  }
+  .right_text {
+    width: 40px;
+    height: 500px;
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .img_box {
+    width: 260px;
+    height: 260px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition-duration: 0.5s;
+  }
+  .img_01 {
+    margin-top: -340px;
+    margin-left: -400px;
+    transform-origin: 0% 0%;
+  }
+  .img_02 {
+    margin-top: -340px;
+    margin-left: -130px;
+    transform-origin: 50% 0%;
+  }
+  .img_03 {
+    margin-top: -340px;
+    margin-left: 140px;
+    transform-origin: 100% 0%;
+  }
+  .img_04 {
+    margin-top: -70px;
+    margin-left: -400px;
+    transform-origin: 0% 50%;
+  }
+  .img_05 {
+    margin-top: -70px;
+    margin-left: -130px;
+    transform-origin: 50% 50%;
+  }
+  .img_06 {
+    margin-top: -70px;
+    margin-left: 140px;
+    transform-origin: 100% 50%;
+  }
+  .img_07 {
+    margin-top: 200px;
+    margin-left: -400px;
+    transform-origin: 0% 100%;
+  }
+  .img_08 {
+    margin-top: 200px;
+    margin-left: -130px;
+    transform-origin: 50% 100%;
+  }
+  .img_09 {
+    margin-top: 200px;
+    margin-left: 140px;
+    transform-origin: 100% 100%;
+  }
+  .img_box:hover {
+    z-index: 9999;
+    transform: scale(1.2) translateZ(300px);
+  }
+  .img_in {
+    display: none;
+  }
+  .img_box:nth-child(3n) {
+    margin-right: 0;
+  }
+  .left_fixed {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    opacity: 0.8;
+    overflow: hidden;
+  }
+  .left_fixed_move_box {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 100px;
+    transform-origin: 0;
+  }
+  .left_fixed_text {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 200px;
+    letter-spacing: 2px;
+    float: left;
+    opacity: 0.5;
+  }
+  .home_but {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .home_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .home_text {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -26.5px;
+  }
+  .home_but:hover .home_img {
+    animation-name: ro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes ro {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+}

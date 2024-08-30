@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@media all and (max-width:390px){
+    .vol_2_pc{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 100%;
+    }
+    .vol_2_mo{
+        background: url(../img/bg.jpg);
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        padding-top: 10%;
+        box-sizing: border-box;
+    }
+    .bg_text_box{
+        height: 4.5%;
+        background: white;
+        opacity: 0.5;
+        position: absolute;
+        left: 0;
+    }
+    .top_text{
+        top: 0;
+    }
+    .bottom_text{
+        bottom: 0;
+    }
+    .move_text>i{
+        color: gray;
+    }
+    .move_text{
+        height: 100%;
+        float: left;
+        color: gray;
+        font-size: 3.8vw;
+        line-height: 100%;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+    }
+    .title_wrap{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 15%;
+    }
+    .top_title{
+        font-size: 1.5em;
+    }
+    .bottom_title{
+        font-size: 2.5em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        margin: 2% auto;
+    }
+    .img_wrap{
+        width: 90%;
+        height: 70%;
+        margin: 0 auto;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+    }
+    .swiper-slide{
+        padding: 1%;
+        box-sizing: border-box;
+    }
+    .swiper-slide img {
+        display: block;
+        object-fit: cover;
+      }
+    .img_box_a{
+        width: 100%;
+        height: 81.6%;
+        /* background: red; */
+        position: relative;
+    }
+    .img_box_a_1{
+        width: 66%;
+        height: 66%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid white;
+        box-sizing: border-box;
+        transform-origin: 0% 0%;
+    }
+    .img_box_a_2,.img_box_a_3,
+    .img_box_a_4,
+    .img_box_a_5,
+    .img_box_a_6{
+        width: 31%;
+        height: 31%;
+        position: absolute;
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+    .img_box_a_2{
+        top: 0;
+        right: 0;
+        transform-origin: 100% 0%;
+        
+    }
+    .img_box_a_3{
+        top: 34.5%;
+        right: 0;
+        transform-origin: 100% 50%;
+    }
+    .img_box_a_4{
+        bottom: 0;
+        left: 0;
+        transform-origin: 00% 100%;
+    }
+    .img_box_a_5{
+        bottom: 0;
+        left: 34.5%;
+        transform-origin: 50% 100%;
+    }
+    .img_box_a_6{
+        bottom: 0;
+        right: 0;
+        transform-origin: 100% 100%;
+    }
+    .text_box{
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    .text_title{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    .swiper-scrollbar{
+        margin-top: 35%;
+    }
+    .back_but{
+        width: 10%;
+        height: 7%;
+        position: absolute;
+        right: 2%;
+        bottom: 4%;
+        z-index: 999;
+        background: url(../img/home_but.png);
+        background-size: 100%;
+        line-height: 300%;
+        font-size: 0.8em;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@media all and (min-width:391px){
+    .vol_4_mo{
+        display: none;
+    }
+    *{
+        margin:0;
+        padding:0;
+        text-align: center;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    li,ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        width: 100%;
+    }
+    
+    .all_wrap{
+        width: calc(100% - 230px);
+        margin-left: 230px;
+        height: 100vh;
+        float: left;
+        position: relative;
+        background-image: url(../img/back_ground.png);
+        overflow: hidden;
+        
+        
+    }
+    header{
+        width: 950px;
+        height: 200px;
+        margin: 0 auto;
+        color: white;
+        padding-top: 20px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 99;
+    }
+    .title_top{
+        width: 180px;
+        height: 40px;
+        margin: 0 auto;
+        font-size: 35px;
+    }
+    .title_bottom{
+        width:950px;
+        height: 90px;
+        margin: 0 auto;
+        font-size: 90px;
+    }
+    .title_sub{
+        width: 290px;
+        height: 50px;
+        margin: 0 auto;
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .title_sub>span{
+        font-size: 18px;
+    }
+    .fly_box{
+        width: 700px;
+        height: 700px;
+        position: absolute;
+        left:50%;
+        margin-left:-350px;
+        /* overflow: hidden; */
+        top:50%;
+        margin-top:-270px;
+        /* margin-top:-350px; */
+        transition-duration: 2s;
+        cursor: pointer;
+    }
+    .fly_box_re{
+        width: 700px;
+        height: 700px;
+        position: relative;
+    }
+    .fly_box_hover{
+        width: 700px;
+        height: 150px;
+        position: absolute;
+        bottom:0;
+        overflow: hidden;
+        background: rgba(255,255, 255, 0.5);
+        z-index: 999999;
+        color:#333333;
+        padding-top:35px;
+        box-sizing: border-box;
+        font-family: 'Fjalla One', sans-serif;
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 18px;
+        display: none;
+    }
+    .hover_padding{
+        padding-top:55px;
+        box-sizing: border-box;
+    }
+    .fly_box:nth-child(8){
+        margin-left:-355px;
+        margin-top:-265px;
+    }
+    .fly_box:nth-child(7){
+        margin-left:-360px;
+        margin-top:-260px;
+    }
+    .fly_box:nth-child(6){
+        margin-left:-365px;
+        margin-top:-255px;
+    }
+    .fly_box:nth-child(5){
+        margin-left:-370px;
+        margin-top:-250px;
+    }
+    .fly_box:nth-child(4){
+        margin-left:-375px;
+        margin-top:-245px;
+    }
+    .fly_box:nth-child(3){
+        margin-left:-380px;
+        margin-top:-240px;
+    }
+    .fly_box:nth-child(2){
+        margin-left:-385px;
+        margin-top:-235px;
+    }
+    .fly_box:nth-child(1){
+        margin-left:-390px;
+        margin-top:-230px;
+    }
+    /* .fly_box:hover{
+        transform: rotateZ(-90deg);
+        transition: 1s;
+    } */
+    .bookmark{
+        width: 79px;
+        height: 142px;
+        transform: rotate(90deg);
+        display: none;
+        position: relative;
+    }
+    .bookmark{
+        opacity: 0.65;
+        position: relative;
+        z-index: 99999;
+    }
+    .bookmark8{
+        background: url(../img/vol_4_num_01.png);
+        background-size: 100%;
+        margin-left: -94px;
+        margin-top: -264px;
+    }
+    .bookmark7{
+        background: url(../img/vol_4_num_02.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -331px;
+    }
+    .bookmark6{
+        background: url(../img/vol_4_num_03.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -392px;
+    }
+    .bookmark5{
+        background: url(../img/vol_4_num_04.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -454px;
+    }
+    .bookmark4{
+        background: url(../img/vol_4_num_05.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -517px;
+    }
+    .bookmark3{
+        background: url(../img/vol_4_num_06.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -579px;
+    }
+    .bookmark2{
+        background: url(../img/vol_4_num_07.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -641px;
+    }
+    .bookmark1{
+        background: url(../img/vol_4_num_08.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -702px;
+    }
+    .bookmark0{
+        background: url(../img/vol_4_num_09.png);
+        background-size: 100%;
+        margin-left: -100px;
+        margin-top: -764px;
+    }
+    .left_fixed{
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        opacity: 0.8;
+        /* overflow: hidden; */
+    }
+    .left_fixed_move_box{
+        /* background: red; */
+        transform: rotate(-90deg);
+        position: absolute;
+        left: 100px;
+        transform-origin: 0;
+    
+    }
+    .left_fixed_text{
+        font-size: 5em;
+        font-weight: 800;
+        line-height: 200px;
+        letter-spacing: 2px;
+        float: left;
+        opacity: 0.5;
+        color: #333333;
+    }
+    .home_but{
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    .home_img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .home_text{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -8px;
+        margin-left: -26.5px;
+    }
+    .home_but:hover .home_img{
+        animation-name: ro;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
+    }
+    @keyframes ro{
+        from{
+            transform: rotateZ(0deg);
+        }
+       to{
+            transform: rotateZ(360deg);
+        }
+    }
+   
+}

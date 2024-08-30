@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@media all and (min-width: 391px) {
+  .vol_1_mo {
+    display: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  li,
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  }
+ 
+  .vol1_wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+  .vol1_left_wrap {
+    width: 230px;
+    overflow: hidden;
+    float: left;
+  }
+  .back1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/back_ground.png);
+  }
+  .back2,
+  .back3 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100vh;
+    background: url(../img/back_ground.png);
+  }
+  .vol1_right_wrap {
+    width: calc(100% - 230px);
+    overflow: hidden;
+    float: left;
+  }
+  .section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .section1,
+  .section3,
+  .section5 {
+    background: url(../img/back_ground.png);
+  }
+  header {
+    width: 1230px;
+    height: 290px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+  }
+  .title_top {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 35px;
+  }
+  .title_bottom {
+    width: 100%;
+    height: 190px;
+    font-size: 90px;
+    line-height: 90px;
+  }
+  .section1_main_img {
+    width: 500px;
+    height: 570px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .vol1_home_but {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .section2_img1 {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    left: -500px;
+    top: -150px;
+    opacity: 0.5;
+    overflow: hidden;
+    transition-duration: 0.7s;
+  }
+  .section2_img2 {
+    width: 800px;
+    height: 1040px;
+    position: absolute;
+    right: -800px;
+    top: -250px;
+    z-index: 99;
+    overflow: hidden;
+    opacity: 0.5;
+    transition-duration: 0.7s;
+  }
+  .section3_img {
+    width: 520px;
+    height: 720px;
+    position: absolute;
+    opacity: 0.5;
+    left: -520px;
+    top: -50px;
+    overflow: hidden;
+    transition-duration: 0.7s;
+  }
+  .section4_img {
+    width: 880px;
+    height: 1100px;
+    position: absolute;
+    right: -880px;
+    bottom: 60px;
+    opacity: 0.5;
+    overflow: hidden;
+    transition-duration: 0.7s;
+  }
+  .section3_text {
+    width: 430px;
+    height: 70px;
+    color: #333333;
+    position: absolute;
+    top: 200px;
+    left: -430px;
+    font-size: 18px;
+    font-weight: 700;
+    background: url(../img/point_1.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: -59% -11%;
+  }
+  .section4_text {
+    width: 700px;
+    height: 95px;
+    color: #333333;
+    position: absolute;
+    font-size: 18px;
+    top: 300px;
+    right: -700px;
+    font-weight: 700;
+  }
+  .section5_text {
+    width: 550px;
+    height: 70px;
+    position: absolute;
+    top: 350px;
+    left: -550px;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: url(../img/point_2.png);
+    background-size: 95%;
+    background-position: -68% -25%;
+    background-repeat: no-repeat;
+  }
+  .text_point > img {
+    width: 521px;
+    height: 60px;
+    margin-left: -42px;
+  }
+  @keyframes img1_in {
+    from {
+      left: -500px;
+      opacity: 0.5;
+    }
+    to {
+      left: 50px;
+      opacity: 1;
+    }
+  }
+  @keyframes img1_out {
+    from {
+      left: 50px;
+      opacity: 1;
+    }
+    to {
+      left: -500px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes img2_in {
+    from {
+      right: -800px;
+      opacity: 0.5;
+    }
+    to {
+      right: 40px;
+      opacity: 1;
+    }
+  }
+  @keyframes img2_out {
+    from {
+      right: 40px;
+      opacity: 1;
+    }
+    to {
+      right: -800px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes img3_in {
+    from {
+      left: -520px;
+      opacity: 0.5;
+    }
+    to {
+      left: 80px;
+      opacity: 1;
+    }
+  }
+  @keyframes img3_out {
+    from {
+      left: 80px;
+      opacity: 1;
+    }
+    to {
+      left: -520px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes img4_in {
+    from {
+      right: -880px;
+      opacity: 0.5;
+    }
+    to {
+      right: 40px;
+      opacity: 1;
+    }
+  }
+  @keyframes img4_out {
+    from {
+      right: 40px;
+      opacity: 1;
+    }
+    to {
+      right: -880px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes font1_in {
+    from {
+      left: -430px;
+      opacity: 0.5;
+    }
+    to {
+      left: 250px;
+      opacity: 1;
+    }
+  }
+  @keyframes font1_out {
+    from {
+      left: 250px;
+      opacity: 1;
+    }
+    to {
+      left: -430px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes font2_in {
+    from {
+      right: -700px;
+      opacity: 0.5;
+    }
+    to {
+      right: 150px;
+      opacity: 1;
+    }
+  }
+  @keyframes font2_out {
+    from {
+      right: 150px;
+      opacity: 1;
+    }
+    to {
+      right: -700px;
+      opacity: 0.5;
+    }
+  }
+  @keyframes font3_in {
+    from {
+      left: -550px;
+      opacity: 0.5;
+    }
+    to {
+      left: 100px;
+      opacity: 1;
+    }
+  }
+  @keyframes font3_out {
+    from {
+      left: 100px;
+      opacity: 1;
+    }
+    to {
+      left: -550px;
+      opacity: 0.5;
+    }
+  }
+  .left_fixed {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    opacity: 0.8;
+    /* overflow: hidden; */
+  }
+  .left_fixed_move_box {
+    /* background: red; */
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 100px;
+    transform-origin: 0;
+  }
+  .left_fixed_text {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 200px;
+    letter-spacing: 2px;
+    float: left;
+    opacity: 0.5;
+  }
+  .home_but {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .home_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .home_text {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -26.5px;
+  }
+  .home_but:hover .home_img {
+    animation-name: ro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes ro {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+}
